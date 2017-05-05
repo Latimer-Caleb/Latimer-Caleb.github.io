@@ -83,6 +83,7 @@ dt,dd{
     margin: 5px;
 }
 /*Classes defined for each individual page*/
+/*Consider making a different class scheme for the pages, since they all use the same background*/
 .page1{
     background-image: url("background/gray.jpg");
 }
