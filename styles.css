@@ -1,20 +1,25 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+body{
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+  padding: 10px;
+  background-image: url('background/gray.jpg');
+  margin: 0 0 100px;
+}
+
 header{
   font-weight: bold;
-  font-family: cursive;
-  color: #FFFFFF;
   text-align: center;
+  color: white;
 }
+h1,h2{
 
-body{
-  color: #FFFFFF;
-  min-height: 100%;
-  padding: 10px;
-  margin: 20px;
 }
-
 h3{
   font-weight: bold;
-  font-family: Perpetua;
   text-decoration: underline;
 }
 
@@ -40,15 +45,22 @@ nav a:hover{
   background-color: #FFFFFF;
   color: #1919FF;
 }
-
+main{
+    color: white;
+    margin-bottom: 30px;
+    position: relative;
+}
 footer{
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 100px;
+  width: 100%;
   align-self: center;
   text-align: center;
   color: #7F7FFF;
   background-color: #000000;
   padding: 10px;
-  margin: 20px;
-  margin-top: 70px;
 }
 
 a{
@@ -71,7 +83,6 @@ a{
 
 dt{
   font-style: italic;
-  font-family: papyrus;
 }
 
 ul{
@@ -81,23 +92,6 @@ ul{
 
 dt,dd{
     margin: 5px;
-}
-/*Classes defined for each individual page*/
-/*Consider making a different class scheme for the pages, since they all use the same background*/
-.page1{
-    background-image: url("background/gray.jpg");
-}
-
-.page2{
-  background-image: url("background/gray.jpg");
-}
-
-.page3{
-  background-image: url("background/gray.jpg");
-}
-
-.page4{
-    background-image: url("background/gray.jpg");
 }
 
 .social{
