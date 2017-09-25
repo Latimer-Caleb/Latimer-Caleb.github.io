@@ -1,51 +1,144 @@
 <!-- Main page -->
+<!-- need images, new backdrops, heavier icons, and new colors and shadows
+     next step, figure out how to do a streamlined scroll with jquery and pure make it look sexy
+     last, get feedback from azam and Younes on Wednesday, show this off then scrap it and rebuild it with the react chain that you wanted
+   -->
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Caleb Latimer</title>
-    <link type="text/css" rel="stylesheet" href= "styles.css"  />
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link type="text/css" rel="stylesheet" href="bootstrap/dist/css/bootstrap.min.css" />
-    <link rel="stylesheet"
-      href="https://fonts.googleapis.com/css?family=Open+Sans">
+
+    <title>Caleb Latimer</title>
+
+    <link type="text/css" rel="stylesheet" href= "styles/styles.css"  />
+    <link type='text/css' rel='stylesheet' href='styles/pure-release-1.0.0/pure-min.css'/>
+    <link type= 'text/css' rel='stylesheet' href='styles/font-awesome-4.7.0/css/font-awesome.min.css'/>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans" />
   </head>
   <body>
-      <div class = "container-fluid">
-          <header>
-            <h1>Caleb Latimer</h1>
-            <h2>Current Computer Science Student | Aspiring Full-Stack Developer</h2>
+          <header class='pure-g'>
+            <h1 class='pure-u-5-5'>Caleb Latimer</h1>
+            <h2 class='pure-u-5-5'>Current Computer Science Student | Growing UI Developer | Coffee Addict</h2>
+            <div class= 'spacer'></div>
+            <div class='pure-u-5-5'><span id='button'><i class='fa fa-angle-double-down fa-5x'></i></span></div>
           </header>
-
-              <nav>
+              <!-- <nav>
                 <a href="index.html">Home</a>
                 <a href="about.html">About</a>
                 <a href="projects.html">Projects</a>
                 <a href="contact.html">Contact Me</a>
-              </nav>
-
+              </nav> -->
               <main>
-
                 <h3>Intro</h3>
                     <dl>
                       <dt>Who am I?</dt>
                       <dd>My name's Caleb and I'm a graduating senior studying Computer Science at Wayne State University</dd>
                       <dt>What's my goal?</dt>
-                      <dd>I want to become a full-stack developer and learn everything I can about front-end and back-end implementation and design</dd>
+                      <dd>I want to become a UI Developer and learn everything I can about front-end development</dd>
                       <dt>What's the purpose of this portfolio?</dt>
-                      <dd>To show myself off and hopefully gain an entry-level or internship position in the process</dd>
+                      <dd>It's a small straight forward project to keep my skills current and to try out different technology</dd>
                     </dl>
-                  </main>
+                    <article class='about'>
+                      <div class='pure-g'>
+                        <div class='pure-u-1-2'>
+                          <div class= 'pure-1-box'>
+                            <h3>Goal</h3>
+                            <p>Dive into the life of a Web Developer</p>
+                            <p>Become an awesome Full-Stack Developer over time</p>
+                          </div>
+                        </div>
+                        <div class='pure-u-1-2'>
+                          <div class= 'pure-1-box'>
+                            <h3>A bit about me</h3>
+                            <p>I study at Wayne State University and I'm a senior student</p>
+                            <p class='pure-u-5-5'>I have a growing interest in front-end engineering and would love to learn more about the field</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class='pure-g'>
+                        <h5 class= 'pure-u-5-5'>I'm a huge fan of the following:</h5>
+                        <ul class='pure-u-5-5'>
+                          <li>Megaman X</li>
+                          <li>Tacos</li>
+                          <li>Video Games</li>
+                          <li>Manga</li>
+                        </ul>
+                      </div>
+                      <div class='pure-g'>
+                          <h3 class='pure-u-5-5'>Classes</h3>
+                          <ul class='pure-u-5-5'>
+                            <li class='pure-u-1-2'>CSC 1100: Problem Solving and Programming</li>
+                            <li class='pure-u-1-2'>CSC 1500: Fundamental Structures in Computer Science</li>
+                            <li class='pure-u-1-2'>CSC 2000: Introduction to C++ Programming Language</li>
+                            <li class='pure-u-1-2'>CSC 2110: Computer Science I</li>
+                            <li class='pure-u-1-2'>CSC 2200: Computer Science II</li>
+                            <li class='pure-u-1-2'>CSC 3100: Computer Architecture &amp; Organization</li>
+                            <li class='pure-u-1-2'>CSC 3110: Algorithm Analysis &amp; Design</li>
+                            <li class='pure-u-1-2'>CSC 3400: Human-Computer Interface Design</li>
+                            <li class='pure-u-2-4'>CSC 3750: Introduction to Web Technology</li>
+                            <li class='pure-u-2-4'>CSC 4100: Software Engineering</li>
+                            <li class='pure-u-2-4'>CSC 4420: Computer Operating Systems</li>
+                            <li class='pure-u-2-4'>CSC 4500: Introduction to Theoretical Computer Science</li>
+                            <li class='pure-u-2-4'>CSC 4996: Senior Project</li>
+                            <li class='pure-u-2-4'>CSC 5750: Principles of Web Technology</li>
+                            <li class='pure-u-2-4'>CSC 5991: .NET Web Development(C# &amp; F#)</li>
+                          </ul>
+                        </div>
+                        <div class='pure-g'>
+                          <h3 class='pure-u-5-5'>Past Experience</h3>
+                          <dl class= 'pure-u-5-5'>
+                            <dt>Tutor at the Academic Success Center</dt>
+                            <dd>Academic tutor for CSC 1100 - CSC 3110, I provide peer assisted learning to help fellow undergrads get over the humps that new people in the program commonly come across </dd>
+                            <dt>Lab Assistant at the Foreign Language Technology Center</dt>
+                            <dd>Technical Assistant at FLTC, I provide routine maintenance to the 4 labs that we have with both Windows and Mac support, I also answer technical questions and provide desktop support</dd>
+                            <dt>Past internship experience</dt>
+                            <dd>I've done previous internships with DTE, American Axle, Quicken Loans, and Chrysler. With responsibilities ranging from business management to software engineering</dd>
+                          </dl>
+                        </div>
+                    </article>
+                    <article class='projects'>
+                      <div>
+                        <p>Not sure what to put yet but it's coming</p>
+                      </div>
+                    </article>
+                    <article class='contact'>
+                      <div class='pure-g'>
+                        <h3 class="mid pure-u-5-5">Social</h3>
+                        <p class="mid pure-u-5-5">View my involvement on the following platforms:</p>
+                        <ul>
+                          <li class="social pure-u-1-2">
+                            <a href="https://stackexchange.com/users/6434702">
+                            <img src="https://stackexchange.com/users/flair/6434702.png" width="208" height="58" alt="profile for kaz on Stack Exchange, a network of free, community-driven Q&amp;A sites" title="profile for kaz on Stack Exchange, a network of free, community-driven Q&amp;A sites"></a>
+                          </li>
+                          <li class="social pure-u-1-2">
+                            <a href = "https://github.com/latimercaleb"><img src ="styles/img/git120.png" alt="Github" /></a>
+                          </li>
 
+                          <li class="social pure-u-3-4">
+                            <a href="https://codepen.io/BK201-reaper/" ><img src= "styles/img/raster.png" height="55" width="160" alt="Codepen" /></a>
+                          </li>
+
+                          <li class="social pure-u-3-4">
+                            <a href="https://www.linkedin.com/in/caleblatimer">
+                            <img src="https://static.licdn.com/scds/common/u/img/webpromo/btn_viewmy_160x33.png" width="160" height="33" alt="View Caleb Latimer's profile on LinkedIn"></a>
+                          </li>
+                        </ul>
+                      </div>
+                    </article>
+              </main>
               <footer>
                       <div>
-                        <a href="#top"><span class= "glyphicon glyphicon-menu-up"></span></a>
+                        <!-- make me a button -->
+                        <a href="#top"><span class= "fa fa-chevron-up"></span></a>
                       </div>
                       <small>
-                    Copyright &copy; 2017  Caleb Latimer v2<br />
-                    <a id="email" href = "mailto:latimercaleb@gmail.com">latimercaleb@gmail.com</a>
-                </small>
+                        Copyright &copy; 2017  Caleb Latimer v3.0 (font-awesome/pure css/jQuery)<br />
+                        <a id="email" href = "mailto:latimercaleb@gmail.com">latimercaleb@gmail.com</a>
+                      </small>
               </footer>
-      </div>
+      <script type='text/javascript' src='javascript/jquery-3.2.1.min.js'></script>
+      <script type= 'text/javascript' src='javascript/script.js'></script>
   </body>
 </html>

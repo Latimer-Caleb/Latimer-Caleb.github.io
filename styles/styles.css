@@ -1,41 +1,39 @@
-html {
-    position: relative;
-    min-height: 100%;
-}
-body{
+body {
   font-family: 'Open Sans', sans-serif;
   color: white;
   padding: 10px;
-  background-image: url('background/gray.jpg');
+  background-image: url('img/gray.jpg');
   margin: 0 0 100px;
+  overflow-x: hidden;
 }
 
-header{
+header {
   font-weight: bold;
   text-align: center;
   color: white;
+  text-shadow: 4px 4px 2px rgba(150, 150, 89, 1);
+  background: url('img/pure.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
 }
-h1,h2{
 
-}
-h3{
+h3 {
   font-weight: bold;
   text-decoration: underline;
 }
 
-nav{
+nav {
   text-transform: uppercase;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
 }
 
-nav a{
+nav a {
     text-decoration: none;
     padding: 0px 60px 0px 60px;
 }
 
-nav a:hover{
+nav a:hover {
   border-style: double;
   border-width: medium;
   border-radius: 15px;
@@ -45,16 +43,15 @@ nav a:hover{
   background-color: #FFFFFF;
   color: #1919FF;
 }
-main{
+
+main {
     color: white;
     margin-bottom: 30px;
     position: relative;
 }
-footer{
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  height: 100px;
+
+footer {
+  height: 60px;
   width: 100%;
   align-self: center;
   text-align: center;
@@ -63,17 +60,16 @@ footer{
   padding: 10px;
 }
 
-a{
+a {
   color: #FFFFFF;
 }
 
-#email{
+#email {
   text-decoration: none;
   font-weight: bold;
-  font-family: monospace;
 }
 
-#email:hover{
+#email:hover {
   color: green;
   border-style: groove;
   border-color: turquoise;
@@ -81,23 +77,42 @@ a{
   background: #FFFFFF;
 }
 
-dt{
+dt {
   font-style: italic;
 }
 
-ul{
+ul {
   columns: 2;
   list-style-type: none;
 }
 
-dt,dd{
+dt,dd {
     margin: 5px;
 }
 
-.social{
+.social {
   padding: 10px 10px 10px 10px;
 }
 
-.mid{
+.mid {
   text-align: center;
+}
+
+i .fa fa-angle-double-down fa-5x{
+  display: block;
+  text-align:center;
+}
+
+.spacer {
+  height: 70vh;
+  /*border: 2px solid white;*/
+}
+
+.about {
+  text-align: center;
+}
+
+li {
+  padding: 4px;
+  margin: 2px;
 }
