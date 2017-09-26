@@ -21,7 +21,7 @@ h3 {
   text-decoration: underline;
 }
 
-nav {
+/*nav {
   text-transform: uppercase;
   margin-left: auto;
   margin-right: auto;
@@ -42,12 +42,12 @@ nav a:hover {
   border-color: #2F4F4F;
   background-color: #FFFFFF;
   color: #1919FF;
-}
+}*/
 
 main {
     color: white;
     margin-bottom: 30px;
-    position: relative;
+    /*position: relative;*/
 }
 
 footer {
@@ -73,6 +73,7 @@ a {
   color: green;
   border-style: groove;
   border-color: turquoise;
+  border-radius: 5px;
   padding: 0px 10px 0px 10px;
   background: #FFFFFF;
 }
@@ -115,4 +116,9 @@ i .fa fa-angle-double-down fa-5x{
 li {
   padding: 4px;
   margin: 2px;
+}
+span .fa-chevron-up:hover {
+  background-color: gray;
+  color: blue;
+  border: 2px white solid;
 }
