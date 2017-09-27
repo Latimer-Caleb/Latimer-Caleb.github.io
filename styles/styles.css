@@ -1,9 +1,8 @@
 body {
   font-family: 'Open Sans', sans-serif;
   color: white;
-  padding: 10px;
+  padding: 10px 10px 0 10px;
   background-image: url('img/gray.jpg');
-  margin: 0 0 100px;
   overflow-x: hidden;
 }
 
@@ -12,13 +11,14 @@ header {
   text-align: center;
   color: white;
   text-shadow: 4px 4px 2px rgba(150, 150, 89, 1);
-  background: url('img/pure.jpg') no-repeat center center fixed;
+  background: url('img/cloud.jpg') no-repeat center center fixed;
   -webkit-background-size: cover;
 }
 
-h3 {
+article > h2, div > h2 {
   font-weight: bold;
   text-decoration: underline;
+  text-align: center;
 }
 
 /*nav {
@@ -51,17 +51,17 @@ main {
 }
 
 footer {
-  height: 60px;
+  /*height: 80px;
   width: 100%;
-  align-self: center;
+  align-self: center;*/
   text-align: center;
-  color: #7F7FFF;
-  background-color: #000000;
-  padding: 10px;
+  color: #000;
+  background-color: #d7ffd9;
+  padding: 5px;
 }
 
 a {
-  color: #FFFFFF;
+  color: #000000;
 }
 
 #email {
@@ -121,4 +121,42 @@ span .fa-chevron-up:hover {
   background-color: gray;
   color: blue;
   border: 2px white solid;
+}
+
+.up-button {
+  background-color: teal;
+  color: #FFF;
+}
+
+.pure-button-group {
+
+}
+
+.codepen {
+  background-color:#000000;
+  color: #FFFFFF;
+}
+
+.github {
+  background-color: #333;
+  color: #FFF;
+}
+
+.linkedin {
+  background-color:#FFF;
+  color: #0077B5;
+}
+
+.twitter {
+  background-color: #1da1f2;
+  color: #FFFFFF;
+}
+
+.projects {
+  background-image: url('img/black-sky.jpg');
+}
+
+.employment {
+  background-image: url('img/sunset.jpg');
+
 }
