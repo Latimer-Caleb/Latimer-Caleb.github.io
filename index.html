@@ -1,77 +1,67 @@
-<!-- Main page -->
-<!-- need images, new backdrops, heavier icons, and new colors and shadows
-
-     next step, figure out how to do a streamlined scroll with jquery and pure make it look sexy
-
-     last, get feedback from azam and Younes on Wednesday, show this off then scrap it and rebuild it with the react chain that you wanted
-   -->
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
+    <meta name="viewport" content="width=device-width, initial-scale=1 maximum-scale=1, user-scalable=no">
     <title>Caleb Latimer</title>
-    <link type='text/css' rel='stylesheet' href='styles/pure-release-1.0.0/grids-responsive-min.css' />
-    <link type='text/css' rel='stylesheet' href='styles/pure-release-1.0.0/pure-min.css'/>
-    <link type= 'text/css' rel='stylesheet' href='styles/font-awesome-4.7.0/css/font-awesome.min.css'/>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans" />
-    <link type="text/css" rel="stylesheet" href= "styles/styles.css"  />
+    <link rel='stylesheet' href='src/bootstrap/bootstrap.min.css' />
+    <link rel="stylesheet" href= "styles/styles.css"  />
   </head>
   <body>
-      <nav>
-          <div class=' nav-bar pure-menu pure-horizontal-menu pure-menu-fixed'>
-               <a href='#' class='main-link pure-menu-header'>CALEB L</a>
-               <ul class='pure-menu-list'>
-                   <li></li>
-               </ul>
-          </div>
-      </nav>
+    <nav>
+      <div class='container-fluid'>
+        <a href='#' class='main-link pure-menu-header'>CALEB L</a>
+        <ul class=''>
+            <li></li>
+        </ul>
+      </div>
+    </nav>
     <header>
-        <div class= 'pure-g'>
-            <h1 class='pure-u-1'>Caleb Latimer</h1>
-            <h2 class='pure-u-1'>Current Computer Science Student | Growing UI Developer | Coffee Addict</h2>
-        </div>
+      <div class='container-fluid'>
+        <h1>Caleb Latimer</h1>
+        <h2>Current Computer Science Student | Growing UI Developer | Coffee Addict</h2>
+      </div>
     </header>
     <main>
-      <article class='intro'>
-          <h2>Intro</h2>
-              <dl class='pure-g'>
-                <div class='pure-u-1'>
-                      <img class='pure-u-2-3 pure-img' height='80' src='styles/img/girl.png' />
-                      <dt class='pure-u-1-3 grid1'>Who am I?</dt>
-                      <dd class='pure-u-1-3 grid1'>My name's Caleb and I'm a graduating senior studying Computer Science at Wayne State University</dd>
-                  </div>
-                <div class='pure-u-1'>
-                  <dt class='pure-u-2-3'>What's my goal?</dt>
-                  <dd class='pure-u-3-3'>I want to become a UI Developer and learn everything I can about front-end development</dd>
-                </div>
-                <div class='pure-u-1'>
-                  <dt class='pure-u-2-3'>What's the purpose of this portfolio?</dt>
-                  <dd class='pure-u-3-3'>It's a small straight forward project to keep my skills current and to try out different technology</dd>
-                </div>
-              </dl>
-          </article>
-          <article class='about'>
-            <div class='pure-g'>
-              <div class='pure-u-1-2'>
-                <div class= 'pure-1-box'>
+      <article class='intro container-fluid'>
+        <h2>Intro</h2>
+          <dl>
+            <div class='row'>
+              <img height='80' src='styles/img/girl.png' />
+              <dt>Who am I?</dt>
+              <dd>My name's Caleb and I'm a graduating senior studying Computer Science at Wayne State University</dd>
+            </div>
+            <div class='row'>
+              <dt>What's my goal?</dt>
+              <dd>I want to become a UI Developer and learn everything I can about front-end development</dd>
+            </div>
+            <div class='row'>
+              <dt>What's the purpose of this portfolio?</dt>
+              <dd>It's a small straight forward project to keep my skills current and to try out different technology</dd>
+            </div>
+          </dl>
+      </article>
+      <article class='about container-fluid'>
+            <div class='row'>
+              <div>
+                <div>
                   <h2>Goals</h2>
                   <p>Dive into the life of a Web Developer</p>
                   <p>Become an awesome Full-Stack Developer over time</p>
                 </div>
               </div>
-              <div class='pure-u-1-2'>
-                <div class= 'pure-1-box'>
+              <div>
+                <div>
                   <h2>A bit about me</h2>
                   <p>I study at Wayne State University and I'm a senior student</p>
-                  <p class='pure-u-5-5'>I have a growing interest in front-end engineering and would love to learn more about the field</p>
+                  <p>I have a growing interest in front-end engineering and would love to learn more about the field</p>
                 </div>
               </div>
             </div>
-            <div class='pure-g'>
-                <h2 class='pure-u-5-5'>Classes</h2>
-                <ul class='pure-u-5-5'>
+            <div class='row'>
+                <h2>Classes</h2>
+                <ul>
                   <li class='pure-u-1-2'>CSC 1100: Problem Solving and Programming</li>
                   <li class='pure-u-1-2'>CSC 1500: Fundamental Structures in Computer Science</li>
                   <li class='pure-u-1-2'>CSC 2000: Introduction to C++ Programming Language</li>
@@ -89,9 +79,9 @@
                   <li class='pure-u-2-4'>CSC 5991: .NET Web Development(C# &amp; F#)</li>
                 </ul>
               </div>
-              <div class='pure-g employment'>
-                <h2 class='pure-u-5-5'>Past Employment</h2>
-                <dl class= 'pure-u-5-5'>
+              <div class='container-fluid'>
+                <h2>Past Employment</h2>
+                <dl>
                   <dt>Tutor at the Academic Success Center</dt>
                   <dd>Academic tutor for CSC 1100 - CSC 3110, I provide peer assisted learning to help fellow undergrads get over the humps that new people in the program commonly come across </dd>
                   <dt>Lab Assistant at the Foreign Language Technology Center</dt>
@@ -100,87 +90,64 @@
                   <dd>I've done previous internships with DTE, American Axle, Quicken Loans, and Chrysler. With responsibilities ranging from business management to software engineering</dd>
                 </dl>
               </div>
-            </article>
-            <article class='projects'>
-              <h2>Past Projects</h2>
-              <div class='pure-g'>
-                <div class='pure-u-1-3 project-card'>
+      </article>
+      <article class='row'>
+        <h2>Past Projects</h2>
+        <div class='pure-g'>
+          <div class='pure-u-1-3 project-card'>
 
-                </div>
-                <div class='pure-u-1-3 project-card'>
+          </div>
+          <div class='pure-u-1-3 project-card'>
 
-                </div>
-                <div class='pure-u-1-3 project-card'>
+          </div>
+          <div class='pure-u-1-3 project-card'>
 
-                </div>
-              </div>
-              <div class='pure-g'>
-                <div class='pure-u-1-3 project-card'>
+          </div>
+          </div>
+          <div class='pure-g'>
+          <div class='pure-u-1-3 project-card'>
 
-                </div>
-                <div class='pure-u-1-3 project-card'>
+          </div>
+          <div class='pure-u-1-3 project-card'>
 
-                </div>
-                <div class='pure-u-1-3 project-card'>
+          </div>
+          <div class='pure-u-1-3 project-card'>
 
-                </div>
-              </div>
-            </article>
-            <!-- <article class='contact'>
-              <div class='pure-g'>
-                <h2 class="mid pure-u-5-5">Social</h2>
-                <p class="mid pure-u-5-5">View my involvement on the following platforms:</p>
-                <ul class='pure-g'>
-                  <li class="social pure-u-1-2">
-                    <a href="https://stackexchange.com/users/6434702">
-                      <img src="https://stackexchange.com/users/flair/6434702.png" width="208" height="58" alt="profile for kaz on Stack Exchange, a network of free, community-driven Q&amp;A sites" title="profile for kaz on Stack Exchange, a network of free, community-driven Q&amp;A sites"></a>
-                    </li>
-                    <li class="social pure-u-1-2">
-                      <a href = "https://github.com/latimercaleb"><img src ="styles/img/git120.png" alt="Github" /></a>
-                    </li>
-
-                    <li class="social pure-u-3-4">
-                      <a href="https://codepen.io/BK201-reaper/" ><img src= "styles/img/raster.png" height="55" width="160" alt="Codepen" /></a>
-                    </li>
-
-                    <li class="social pure-u-3-4">
-                      <a href="https://www.linkedin.com/in/caleblatimer">
-                        <img src="https://static.licdn.com/scds/common/u/img/webpromo/btn_viewmy_160x33.png" width="160" height="33" alt="View Caleb Latimer's profile on LinkedIn"></a>
-                      </li>
-                    </ul>
-                  </div>
-                </article> -->
-              </main>
-              <footer>
-                <div>
-                  <button class= "fa fa-chevron-up up-button pure-button "></button>
-                  <!-- need to add full functionality of click event for the button above -->
-                  <!-- <button><a href="#top"><span class= "fa fa-chevron-up"></span></a></button> -->
-                </div>
-                <small>
-                  Copyright &copy; 2017  Caleb Latimer v3.0 (font-awesome/pure css/jQuery)<br />
-                  <div class='pure-button-group' role='group' aria-label='Social Links'>
-                    <button class='codepen pure-button'>
-                      <i class="fa fa-codepen" aria-hidden="true"></i>
-                      Codepen
-                    </button>
-                    <button class='github pure-button'>
-                      <i class="fa fa-github-square" aria-hidden="true"></i>
-                      Github
-                    </button>
-                    <button class='linkedin pure-button'>
-                      <i class="fa fa-linkedin-square" aria-hidden="true"></i>
-                      LinkedIn
-                    </button>
-                    <button class='twitter pure-button'>
-                      <i class="fa fa-twitter-square" aria-hidden="true"></i>
-                      Twitter
-                    </button>
-                  </div>
-                  <a id="email" href = "mailto:latimercaleb@gmail.com">latimercaleb@gmail.com</a>
-                </small>
-              </footer>
-              <script type='text/javascript' src='javascript/jquery-3.2.1.min.js'></script>
-              <script type= 'text/javascript' src='javascript/script.js'></script>
+          </div>
+        </div>
+      </article>
+    </main>
+    <footer>
+      <div class='row'> 
+      <div>
+        <button class= "fa fa-chevron-up up-button pure-button "></button>
+      </div>
+      <small>
+        Copyright &copy; 2017  Caleb Latimer v4.0<br />
+        <div class='pure-button-group' role='group' aria-label='Social Links'>
+          <button class='codepen pure-button'>
+            <i class="fa fa-codepen" aria-hidden="true"></i>
+            Codepen
+          </button>
+          <button class='github pure-button'>
+            <i class="fa fa-github-square" aria-hidden="true"></i>
+            Github
+          </button>
+          <button class='linkedin pure-button'>
+            <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+            LinkedIn
+          </button>
+          <button class='twitter pure-button'>
+            <i class="fa fa-twitter-square" aria-hidden="true"></i>
+            Twitter
+          </button>
+        </div>
+        <a id="email" href = "mailto:latimercaleb@gmail.com">latimercaleb@gmail.com</a>
+        </small>
+       </div>
+      </footer>
+  <script src='javascript/jquery-3.2.1.min.js'></script>
+  <script src='src/js/bootstrap.min.js'></script>
+  <script src='javascript/script.js'></script>
   </body>
 </html>
