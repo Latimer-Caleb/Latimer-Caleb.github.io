@@ -4,3 +4,5 @@
 $(function(){
     console.log("Ready?");
 });
+
+// Variables

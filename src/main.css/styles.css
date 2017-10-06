@@ -1,17 +1,12 @@
-@textFont: 'Open Sans';
-@headerFont: 'Roboto';
-
 body {
-  font-family: @textFont, sans-serif;
+  font-family: 'Open Sans', sans-serif;
   padding-top: 70px;
 }
-
 main {
-    color: white;
-    margin-bottom: 30px;
-    /*position: relative;*/
+  color: white;
+  margin-bottom: 30px;
+  /*position: relative;*/
 }
-
 footer {
   /*height: 80px;
   width: 100%;
@@ -21,63 +16,51 @@ footer {
   background-color: #d7ffd9;
   padding: 5px;
 }
-
 a {
   color: #000000;
 }
-
 dt {
   font-style: italic;
 }
-
 ul {
   columns: 2;
   list-style-type: none;
 }
-
-dt,dd {
-    margin: 5px;
+dt,
+dd {
+  margin: 5px;
 }
-
 .up-button {
   background-color: teal;
   color: #FFF;
 }
-
 .codepen {
-  background-color:#000000;
+  background-color: #000000;
   color: #FFFFFF;
 }
-
 .github {
   background-color: #333;
   color: #FFF;
 }
-
 .linkedin {
-  background-color:#FFF;
+  background-color: #FFF;
   color: #0077B5;
 }
-
 .twitter {
   background-color: #1da1f2;
   color: #FFFFFF;
 }
-
 .projects {
   background-image: url('img/black-sky.jpg');
 }
-
 .employment {
   background-image: url('img/sunset.jpg');
-/* just a test */
+  /* just a test */
 }
-
 #email {
   text-decoration: none;
   font-weight: bold;
 }
-
 #email:hover {
   color: green;
   border-style: groove;
