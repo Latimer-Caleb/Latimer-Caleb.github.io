@@ -4,7 +4,6 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1 maximum-scale=1, user-scalable=no">
     <title>Caleb Latimer</title>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans" />
     <link rel='stylesheet' href='bootstrap/css/bootstrap.min.css' />
     <link rel="stylesheet" href= "styles.css"  />
   </head>
@@ -13,126 +12,118 @@
       <div class='container-fluid'>
           <div class='navbar-header'>
               <a href='#' class='navbar-brand'>CALEB L</a>
-              <ul class=''>
-                  <li>A</li>
-                  <li>B</li>
-                  <li>C</li>
-                  <li>D</li>
+              <ul class='nav nav-pills'>
+                  <li class='active'><a href='#intro'>About</a></li>
+                  <li><a href='#employment'>Experience</a></li>
+                  <li><a href='#projects'>Projects</a></li>
+                  <li><a href='#courseWork'>Coursework</a></li>
               </ul>
           </div>
       </div>
     </nav>
-    <header>
-        <div class='jumbotron'>
-            <div class='container-fluid'>
-              <h1>Caleb Latimer</h1>
-              <h2>Current Computer Science Student | Growing UI Developer | Coffee Addict</h2>
+    <div class="container">
+        <header>
+            <h1>Caleb Latimer</h1>
+            <h2>Web Developer</h2>
+        </header>
+        <main>
+          <article class="row about">
+            <h3 id='intro'>Introduction</h3>
+            <dl>
+              <div class='col-md-6'>
+                <dt>Who am I?</dt>
+                <dd>My name's Caleb and I'm a graduating senior studying Computer Science at Wayne State University</dd>
+              </div>
+              <div class='col-md-6 col-md-offset-6'>
+                <dt>What's my goal?</dt>
+                <dd>I want to become a UI Developer and learn everything I can about front-end development</dd>
+              </div>
+              <div class='col-md-6'>
+                <dt>What's the purpose of this portfolio?</dt>
+                <dd>It's a small straight forward project to keep my skills current and to try out different technology</dd>
+              </div>
+            </dl>
+            <div class='col-md-6 col-md-offset-6'>
+              <h3>Goals</h3>
+              <p>Dive into the life of a Web Developer</p>
+              <p>Become an awesome Full-Stack Developer over time</p>
             </div>
-        </div>
-    </header>
-    <main>
-      <article class='intro container-fluid'>
-        <h2>Intro</h2>
-          <dl>
-            <div class='row'>
-              <img height='80' src='styles/img/girl.png' />
-              <dt>Who am I?</dt>
-              <dd>My name's Caleb and I'm a graduating senior studying Computer Science at Wayne State University</dd>
+            <div class='col-md-6'>
+              <h3>A bit about me</h3>
+              <p>I study at Wayne State University and I'm a senior student</p>
+              <p>I have a growing interest in front-end engineering and would love to learn more about the field</p>
             </div>
-            <div class='row'>
-              <dt>What's my goal?</dt>
-              <dd>I want to become a UI Developer and learn everything I can about front-end development</dd>
-            </div>
-            <div class='row'>
-              <dt>What's the purpose of this portfolio?</dt>
-              <dd>It's a small straight forward project to keep my skills current and to try out different technology</dd>
-            </div>
-          </dl>
-      </article>
-      <article class='about container-fluid'>
-            <div class='row'>
-              <div>
-                <div>
-                  <h2>Goals</h2>
-                  <p>Dive into the life of a Web Developer</p>
-                  <p>Become an awesome Full-Stack Developer over time</p>
+          </article>
+              <article class="row experience">
+                  <h3 id='employment'>Past Employment</h3>
+                  <dl>
+                    <dt>Tutor at the Academic Success Center</dt>
+                    <dd>Academic tutor for CSC 1100 - CSC 3110, I provide peer assisted learning to help fellow undergrads get over the humps that new people in the program commonly come across </dd>
+                    <dt>Lab Assistant at the Foreign Language Technology Center</dt>
+                    <dd>Technical Assistant at FLTC, I provide routine maintenance to the 4 labs that we have with both Windows and Mac support, I also answer technical questions and provide desktop support</dd>
+                    <dt>Past internships</dt>
+                    <dd>I've done previous internships with DTE, American Axle, Quicken Loans, and Chrysler. With responsibilities ranging from business management to software engineering</dd>
+                  </dl>
+              </article>
+              <article class="row projects">
+                <h3 id='projects'>Past Projects</h3>
+                <!--New section needs content-->
+              </article>
+              <article class="row coursework">
+                  <h3 id='courseWork'>Classes</h3>
+                  <p>The below computer sciences courses were required for my undergraduate degree</p>
+                  <ul>
+                    <li class=''>CSC 1100: Problem Solving and Programming</li>
+                    <li class=''>CSC 1500: Fundamental Structures in Computer Science</li>
+                    <li class=''>CSC 2000: Introduction to C++ Programming Language</li>
+                    <li class=''>CSC 2110: Computer Science I</li>
+                    <li class=''>CSC 2200: Computer Science II</li>
+                    <li class=''>CSC 3100: Computer Architecture &amp; Organization</li>
+                    <li class=''>CSC 3110: Algorithm Analysis &amp; Design</li>
+                    <li class=''>CSC 3400: Human-Computer Interface Design</li>
+                    <li class=''>CSC 3750: Introduction to Web Technology</li>
+                    <li class=''>CSC 4110: Software Engineering</li>
+                    <li class=''>CSC 4420: Computer Operating Systems</li>
+                    <li class=''>CSC 4500: Introduction to Theoretical Computer Science</li>
+                    <li class=''>CSC 4996: Senior Project</li>
+                    <li class=''>CSC 5750: Principles of Web Technology</li>
+                    <li class=''>CSC 5991: .NET Web Development(C# &amp; F#)</li>
+                  </ul>
+              </article>
+            </main>
+          <footer>
+                <div class='row'>
+                    <p class='col-md-12'>Copyright &copy; 2017  Caleb Latimer</p>
+                    <div class='col-md-6'>
+                        <p>Contact me here</p>
+                        <div class='btn-group' role='group' aria-label='Social Links'>
+                            <button class='linkedin btn'>
+                                <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+                                LinkedIn
+                              </button>
+                              <button class='twitter btn'>
+                                <i class="fa fa-twitter-square" aria-hidden="true"></i>
+                                Twitter
+                              </button>
+                        </div>
+                    </div>
+                    <div class='col-md-6'>
+                        <p>View my work here</p>
+                        <div class='btn-group' role='group' aria-label='Social Links'>
+                            <button class='codepen btn'>
+                                <i class="fa fa-codepen" aria-hidden="true"></i>
+                                Codepen
+                              </button>
+                              <button class='github btn'>
+                                <i class="fa fa-github-square" aria-hidden="true"></i>
+                                Github
+                              </button>
+                        </div>
+                    </div>
                 </div>
-              </div>
-              <div>
-                <div>
-                  <h2>A bit about me</h2>
-                  <p>I study at Wayne State University and I'm a senior student</p>
-                  <p>I have a growing interest in front-end engineering and would love to learn more about the field</p>
-                </div>
-              </div>
-            </div>
-            <div class='row'>
-                <h2>Classes</h2>
-                <ul>
-                  <li class='pure-u-1-2'>CSC 1100: Problem Solving and Programming</li>
-                  <li class='pure-u-1-2'>CSC 1500: Fundamental Structures in Computer Science</li>
-                  <li class='pure-u-1-2'>CSC 2000: Introduction to C++ Programming Language</li>
-                  <li class='pure-u-1-2'>CSC 2110: Computer Science I</li>
-                  <li class='pure-u-1-2'>CSC 2200: Computer Science II</li>
-                  <li class='pure-u-1-2'>CSC 3100: Computer Architecture &amp; Organization</li>
-                  <li class='pure-u-1-2'>CSC 3110: Algorithm Analysis &amp; Design</li>
-                  <li class='pure-u-1-2'>CSC 3400: Human-Computer Interface Design</li>
-                  <li class='pure-u-2-4'>CSC 3750: Introduction to Web Technology</li>
-                  <li class='pure-u-2-4'>CSC 4100: Software Engineering</li>
-                  <li class='pure-u-2-4'>CSC 4420: Computer Operating Systems</li>
-                  <li class='pure-u-2-4'>CSC 4500: Introduction to Theoretical Computer Science</li>
-                  <li class='pure-u-2-4'>CSC 4996: Senior Project</li>
-                  <li class='pure-u-2-4'>CSC 5750: Principles of Web Technology</li>
-                  <li class='pure-u-2-4'>CSC 5991: .NET Web Development(C# &amp; F#)</li>
-                </ul>
-              </div>
-              <div class='row'>
-                <h2>Past Employment</h2>
-                <dl>
-                  <dt>Tutor at the Academic Success Center</dt>
-                  <dd>Academic tutor for CSC 1100 - CSC 3110, I provide peer assisted learning to help fellow undergrads get over the humps that new people in the program commonly come across </dd>
-                  <dt>Lab Assistant at the Foreign Language Technology Center</dt>
-                  <dd>Technical Assistant at FLTC, I provide routine maintenance to the 4 labs that we have with both Windows and Mac support, I also answer technical questions and provide desktop support</dd>
-                  <dt>Past internships</dt>
-                  <dd>I've done previous internships with DTE, American Axle, Quicken Loans, and Chrysler. With responsibilities ranging from business management to software engineering</dd>
-                </dl>
-              </div>
-      </article>
-      <article>
-        <h2>Past Projects</h2>
-        </div>
-      </article>
-    </main>
-    <footer>
-      <div class='container'>
-          <div class='row'>
-              <small class='.col-12'>Copyright &copy; 2017  Caleb Latimer v4.0<br /></small>
-          </div>
-          <div class='row'>
-              <div class='btn-group' role='group' aria-label='Social Links'>
-                <button class='codepen btn'>
-                  <i class="fa fa-codepen" aria-hidden="true"></i>
-                  Codepen
-                </button>
-                <button class='github btn'>
-                  <i class="fa fa-github-square" aria-hidden="true"></i>
-                  Github
-                </button>
-                <button class='linkedin btn'>
-                  <i class="fa fa-linkedin-square" aria-hidden="true"></i>
-                  LinkedIn
-                </button>
-                <button class='twitter btn'>
-                  <i class="fa fa-twitter-square" aria-hidden="true"></i>
-                  Twitter
-                </button>
-              </div>
-          </div>
-          <div class='row'>
-              <a id="email" href = "mailto:latimercaleb@gmail.com">latimercaleb@gmail.com</a>
-          </div>
-       </div>
-    </footer>
+          </footer>
+    </div>
+  </body>
   <script src='jquery-3.2.1.min.js'></script>
   <script src='bootstrap/js/bootstrap.min.js'></script>
   <script src='script.js'></script>
