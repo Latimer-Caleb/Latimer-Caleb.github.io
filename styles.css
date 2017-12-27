@@ -4,7 +4,7 @@
 body {
   font-family: 'Roboto', serif;
   color: #000000;
-  background-color: #f8f8f8;
+  background-color: #FFF;
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -13,19 +13,20 @@ h1,h2,h3,h4,h5,h6 {
 
 header {
   margin-top: 4.0em;
+  background-color: #bb2;
 }
 
 main {
   margin-bottom: 1em;
+  background-color: #bb2;
+  padding: 1.5em;
 }
 
 footer {
   text-align: center;
   padding: 0.5em;
-}
-
-dt {
-  font-style: italic;
+  background-color: #000;
+  color:#FFF;
 }
 
 ul {
@@ -33,6 +34,22 @@ ul {
   list-style-type: none;
 }
 
-dt, dd {
-  margin: 0.5em;
+#Codepen{
+  background-color: #000000;
+  color: #FFFFFF;
+}
+
+#Linkedin{
+  background-color: #FFF;
+  color: #0077B5;
+}
+
+#Handshake{
+  background-color: #FFF;
+  color: #FFDF00;
+}
+
+#Github{
+  background-color: #333;
+  color: #FFF;
 }
