@@ -30,10 +30,19 @@ footer {
 }
 
 ul {
-  columns: 2;
   list-style-type: none;
 }
 
+.courses{
+  columns: 2;
+}
+
+.test{
+  width: 300px;
+  height: 300px;
+  border: 2px solid pink;
+  background-color: rebeccapurple;
+}
 #Codepen{
   background-color: #000000;
   color: #FFFFFF;
