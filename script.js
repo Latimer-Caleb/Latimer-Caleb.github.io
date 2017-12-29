@@ -1,8 +1,5 @@
-// javascript, implemented via jquery-3
-
-// On dom-ready
-$(function(){
-    console.log("Ready?");
+$('.nav a').click(function(){
+    $(".nav").find(".active").removeClass("active");
+    $(this).parent().addClass("active");
+    // custom colors?? 
 });
-
-// Variables

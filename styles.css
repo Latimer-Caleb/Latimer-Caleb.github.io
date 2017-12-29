@@ -43,6 +43,11 @@ ul {
   border: 2px solid pink;
   background-color: rebeccapurple;
 }
+
+.nav-tabs{
+  border: none;
+}
+
 #Codepen{
   background-color: #000000;
   color: #FFFFFF;
