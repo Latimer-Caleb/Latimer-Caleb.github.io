@@ -1,9 +1,11 @@
 # Portfolio project
 
-This repo holds the source code for my Portfolio project. This project is a side project that I actively work on to try new concepts, technologies and designs.
+This repo holds the source code for my Portfolio project and a slight monologue of some of the different tools I've used or approaches that I have tried with it
 
-v1 was standalone html/css
+**V1** standalone html/css
 
-v2 was bootstrap with jquery
+**V2** bootstrap grid
 
-v3 is pure.css vanillajs and jquery
+**V3** pure.css 
+
+**V4** bootstrap 3 w/jQuery
