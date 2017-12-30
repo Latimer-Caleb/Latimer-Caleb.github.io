@@ -4,7 +4,7 @@
 body {
   font-family: 'Roboto', serif;
   color: #000000;
-  background-color: #FFF;
+  background-color: #E1E1E1;
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -12,21 +12,21 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 header {
-  margin-top: 4.0em;
-  background-color: #bb2;
+  margin-top: 3.5em;
+  background-color: #C7C6BB; 
+  padding: 1em;
 }
 
 main {
-  margin-bottom: 1em;
-  background-color: #bb2;
+  background-color: #879A9E;
   padding: 1.5em;
 }
 
 footer {
   text-align: center;
-  padding: 0.5em;
-  background-color: #000;
-  color:#FFF;
+  padding: 1em;
+  background-color: #F8F6D6;
+  color:#000;
 }
 
 ul {
@@ -46,6 +46,17 @@ ul {
 
 .nav-tabs{
   border: none;
+}
+
+.icon-style{
+  padding-right: 3px;
+}
+
+.anchor{
+  display: block;
+  height: 75px;
+  margin-top: -75px;
+  visibility: hidden;
 }
 
 #Codepen{
