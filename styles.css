@@ -47,6 +47,15 @@ ul {
   margin-top: -75px;
   visibility: hidden;
 }
+/*
+.panel-body{
+  height:260px;
+}
+*/
+
+.img-container {
+  text-align: center;
+}
 
 #Codepen{
   background-color: #000000;
