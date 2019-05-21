@@ -8,6 +8,7 @@ export default () => (
         direction="row">
     <Sidebar title="Classes" />
     <MainWindow>
+    {/*Might axe this page in general, there's nothing about it that isn't already on linked in it's useless info*/}
       <p>The below are Computer Science Courses that were required for my Undergraduate Degree</p>
       <ul>
         <li>CSC 1100: Problem Solving and Programming</li>

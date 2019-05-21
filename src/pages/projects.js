@@ -11,7 +11,8 @@ export default () => (
     <h3>Projects</h3>
     {/*
       Need to redesign this and remove all dead bootstrap code since it doesn't apply here
-      Mind the button use it throws warnings  
+      Mind the button use it throws warnings
+      How to redesign?  
     */}
             <div class='col-md-12'>
               <div class='row'>

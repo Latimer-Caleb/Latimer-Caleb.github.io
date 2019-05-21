@@ -8,6 +8,7 @@
 
 .navContainer {
   margin: 20px;
+
 }
 
 .logoImage {
@@ -21,6 +22,7 @@
 
 .sidebarWrapper {
   padding: 20px !important;
+  border: 2px solid black;
 }
 
 .footerWrapper {
