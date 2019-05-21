@@ -3,9 +3,9 @@ import { Helmet } from "react-helmet"
 import { Nav } from "../nav"
 import Footer from "../footer"
 
-import PropTypes from 'prop-types';
-import { withStyles } from '@material-ui/core/styles';
-import Paper from '@material-ui/core/Paper';
+// import PropTypes from 'prop-types';
+// import { withStyles } from '@material-ui/core/styles';
+// import Paper from '@material-ui/core/Paper';
 import Grid from '@material-ui/core/Grid';
 import sidebarStyle from './sidebar.module.css';
 

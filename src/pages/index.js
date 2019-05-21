@@ -1,8 +1,6 @@
 // Entry point, should contain containers
 import React from "react";
-import PropTypes from 'prop-types';
-import { withStyles } from '@material-ui/core/styles';
-import Paper from '@material-ui/core/Paper';
+import Card from '@material-ui/core/Card';
 import Grid from '@material-ui/core/Grid';
 import Sidebar from "../components/sidebar/sidebar";
 import MainWindow from "../components/main-window/main-window";
@@ -13,8 +11,10 @@ export default () => (
         direction="row">
     <Sidebar title="Home" />
     <MainWindow>
-      <p>Hello, I'm a Software Engineer from Detroit working RevSpring as Level 2 Software Engineer. Have a closer look at some of the things I've worked on over on the right or click the links below to learn more about my background and experience.
-    </p>
+      <Card>
+        <p>I graduated from Wayne State University with my Bachelor's of Science and Engineering in Computer Science. I'm interested in Web, and mobile development with a fascination for UI, UX and XR development and currently a Software Engineer with RevSpring.</p>
+        <p>Have a closer look at some of the things I've worked on by clicking the links on the left or scrolling through the page.</p>
+      </Card>
     </MainWindow>
   </Grid>
 )

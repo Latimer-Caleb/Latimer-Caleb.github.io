@@ -9,7 +9,10 @@ export default () => (
     <Sidebar title="Projects" />
     <MainWindow>
     <h3>Projects</h3>
-    {/*Need to redesign this and remove all dead bootstrap code since it doesn't apply here*/}
+    {/*
+      Need to redesign this and remove all dead bootstrap code since it doesn't apply here
+      Mind the button use it throws warnings  
+    */}
             <div class='col-md-12'>
               <div class='row'>
                 <div class='col-md-4'>
