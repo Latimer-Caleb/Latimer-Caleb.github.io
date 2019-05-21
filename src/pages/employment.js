@@ -8,7 +8,6 @@ export default () => (
         direction="row">
   <Sidebar title="Employment" />
   <MainWindow>
-      <p>Employment</p>
       <h3>Past Employment</h3>
       <h4>Tutor: Wayne State</h4>
       <ul>

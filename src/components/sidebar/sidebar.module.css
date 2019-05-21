@@ -3,18 +3,27 @@
 }
 
 .siteLinks>li {
-  padding: 20px;
+  padding: 40px;
 }
 
 .navContainer {
   margin: 20px;
 }
 
-.logoImage{
-      width: 32px;
+.logoImage {
+  width: 32px;
 }
 
-.logoWrapper{
-      list-style-type: none;
-      column-count: 2;
+.logoWrapper {
+  list-style-type: none;
+  column-count: 2;
+}
+
+.sidebarWrapper {
+  padding: 20px !important;
+}
+
+.footerWrapper {
+  margin-top: calc(5% + 100px);
+  bottom: 0;
 }

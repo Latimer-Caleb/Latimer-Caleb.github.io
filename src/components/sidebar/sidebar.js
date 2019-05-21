@@ -7,10 +7,10 @@ import PropTypes from 'prop-types';
 import { withStyles } from '@material-ui/core/styles';
 import Paper from '@material-ui/core/Paper';
 import Grid from '@material-ui/core/Grid';
-
+import sidebarStyle from './sidebar.module.css';
 
 export default (props) => (
-  <Grid item xs={12} sm={4}>
+  <Grid item xs={12} sm={4} className={sidebarStyle.sidebarWrapper}>
     <Helmet>
       <title>CL {props.title}</title>
       <meta charSet="utf-8" />
